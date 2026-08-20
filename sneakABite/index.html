@@ -8,22 +8,43 @@
   <link rel="stylesheet" href="https://gkll44.github.io/cssStyle.css">
 </head>
 <body>
-  
-  <div class="container">
-    <div class="card" style="padding: 10px 20px;">
-        <a href="https://gkll44.github.io/gkll44Games"><button style="padding: 10px; width: 100px;">返回</button></a>
-        <h3 class="blacktitle" style="border-bottom: 1px solid gray ;">Game Info</h3>
-        <h2 class="blacktitle">Sneak a bite</h3>
-        <label class="smalltext">注：基于Unity引擎。</label>
-        <div>
-            <label>游戏简介：事情是这样的，你（主人公）以前一直偷偷吃44的薯片。这次44又买了几包，你又想偷吃，可这次44提高警惕了…… 薯片是无尽的，你可以尝试挑战你的极限！</label>
-            <label style="font-size: 12px;">在44背对着你的时候点击盘子上的薯片来尝试吃薯片，薯片会刷新。当44转身看你的时候，就不要吃了！尽量拿到最高分吧！</label>
-            <div>
-                <img src="resources/preview.png" style="max-height: 200px;">
-            </div>
-            <a href="Game.html"><button style="padding: 10px; width: 100px;">游玩！</button></a>
-        </div>  
+  <div class="container" style="max-width: 800px; margin: 0 auto; padding: 20px 15px;">
+    <div class="card" style="padding: 20px;">
+      
+      <!-- 返回 -->
+      <div style="margin-bottom: 15px;">
+        <a href="https://gkll44.github.io/gkll44Games">
+          <button style="padding: 8px 16px; width: auto; cursor: pointer;">返回</button>
+        </a>
+      </div>
+      
+      <h3 class="blacktitle" style="border-bottom: 1px solid gray; padding-bottom: 10px; margin-top: 0;">Game Info</h3>
+      
+      <h2 class="blacktitle" style="margin: 15px 0 5px 0;">Sneak a bite</h2>
+      <label class="smalltext" style="display: block; margin-bottom: 20px;">注：基于Unity引擎。</label>
+      
+      <!-- 内容区：左文右图 -->
+      <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
         
+        <div style="flex: 1; min-width: 260px;">
+          <p style="margin: 0 0 10px 0; line-height: 1.6;">
+            <strong>游戏简介：</strong>事情是这样的，你（主人公）以前一直偷偷吃44的薯片。这次44又买了几包，你又想偷吃，可这次44提高警惕了…… 薯片是无尽的，你可以尝试挑战你的极限！
+          </p>
+          <p style="font-size: 12px; color: #666; line-height: 1.5; margin: 0 0 20px 0;">
+            在44背对着你的时候点击盘子上的薯片来尝试吃薯片，薯片会刷新。当44转身看你的时候，就不要吃了！尽量拿到最高分吧！
+          </p>
+          <a href="Game.html">
+            <button style="padding: 10px 28px; width: auto; cursor: pointer; font-size: 14px;">游玩！</button>
+          </a>
+        </div>
+        
+        <div style="flex-shrink: 0; text-align: center;">
+          <img src="resources/preview.png" style="max-height: 200px; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); display: block; margin-bottom: 10px;">
+        </div>
+        
+      </div>
+      
     </div>
   </div>
 </body>
+</html>
