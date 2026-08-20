@@ -8,22 +8,38 @@
   <link rel="stylesheet" href="https://gkll44.github.io/cssStyle.css">
 </head>
 <body>
-  
-  <div class="container">
-    <h1 class="blacktitle">GKll44 Games!</h1>
-    <div class="card">
-      <h3 class="blacktitle">这里提供了一些公开的游戏！！</h3>
-        <div class="card" style="padding: 3px 10px;">
-          <h3 class="blacktitle">Sneak a bite</h3>
-          <div>
-            <div style="max-width: 340px;">
-            <label style="font-size: 12px;">事情是这样的，你（主人公）以前一直偷偷吃44的薯片。这次44又买了几包，你又想偷吃，可这次44提高警惕了……</label>
-            </div>
-            <img src="sneakABite/resources/preview.png" style="max-height: 100px;">
-          </div>
-          
-          <a href="sneakABite/index.html"><button style="margin: 10px; width: 100px;">看看</button></a>
+  <div class="container" style="max-width: 800px; margin: 0 auto; padding: 20px 15px;">
+    
+    <h1 class="blacktitle" style="text-align: center; margin-bottom: 25px;">GKll44 Games!</h1>
+    
+    <div class="card" style="padding: 20px;">
+      <h3 class="blacktitle" style="margin-top: 0; margin-bottom: 20px;">这里提供了一些公开的游戏！！</h3>
+      
+      <!-- 游戏卡片 -->
+      <div style="display: flex; flex-wrap: wrap; gap: 15px; align-items: flex-start; padding: 15px; border: 1px solid #ccc; border-radius: 4px; background: #fafafa;">
+        
+        <!-- 左侧文字 -->
+        <div style="flex: 1; min-width: 220px;">
+          <h3 class="blacktitle" style="margin-top: 0; margin-bottom: 10px;">Sneak a bite</h3>
+          <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 0;">
+            事情是这样的，你（主人公）以前一直偷偷吃44的薯片。这次44又买了几包，你又想偷吃，可这次44提高警惕了……
+          </p>
         </div>
+        
+        <!-- 右侧图片 -->
+        <div style="flex-shrink: 0; text-align: center;">
+          <img src="sneakABite/resources/preview.png" style="max-height: 100px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: block;">
+        </div>
+        
+        <!-- 底部按钮 -->
+        <div style="width: 100%; text-align: right; margin-top: 5px;">
+          <a href="sneakABite/index.html">
+            <button style="padding: 8px 20px; width: auto; cursor: pointer;">看看</button>
+          </a>
+        </div>
+      </div>
+      
     </div>
   </div>
 </body>
+</html>
